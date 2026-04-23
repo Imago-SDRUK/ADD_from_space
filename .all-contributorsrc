@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "pietrostefani",
+      "name": "Elisabetta Pietrostefani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92875867?v=4",
+      "profile": "http://www.pietrostefani.com",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "ADD_from_space",
+  "projectOwner": "Imago-SDRUK"
+}
