@@ -1,0 +1,70 @@
+# Materials
+
+> *The Discovery Day workshop has two parts. Both run entirely in your browser — no software to install, no accounts to set up.*
+
+## Content
+
+| Part | Session | Link |
+|---|---|---|
+| 1 | **From Pixels to Patterns** — reading London from space | [Interactive resource](https://imago-sdruk.github.io/pixelsToPatterns.html) |
+| 2 | **Interactive exploration of embeddings** — finding lookalike places across the UK | [Imago UK Similarity Explorer](https://imago-sdruk.github.io/embeddings-uk-explorer/) |
+
+---
+
+## Part 1 — From Pixels to Patterns
+
+A story-style walk-through of how geographic data scientists turn raw Landsat satellite imagery of London into a map that labels every pixel as **water, developed, undeveloped, or cloud**.
+
+You'll see:
+
+- What the different bands of light a satellite records actually show
+- How to build true-colour and false-colour composites, and why false-colour reveals things the eye cannot see
+- How the Normalised Difference Vegetation Index (NDVI) picks out every park and playing field in the city
+- How a machine-learning classifier is trained, how it performs, and where it gets things wrong (look closely at Heathrow!)
+
+The resource is designed to be read at your own pace. **No code is shown** — this is about understanding *what* the analysis does and *why* the choices matter.
+
+👉 **[Open the Pixels to Patterns interactive resource](https://imago-sdruk.github.io/pixelsToPatterns.html)**
+
+---
+
+## Part 2 — Interactive exploration of embeddings
+
+For this part you'll use a live web tool built by Imago at the University of Liverpool. It lets you click on any small area in the UK and instantly see the **ten places across the country that look most similar to it from space**.
+
+The tool is powered by **satellite embeddings** — compact numerical vectors that capture the *meaning* of a landscape, not just its raw pixels. Two places with similar built form, vegetation patterns, and water features will end up with nearby vectors, even if they are hundreds of kilometres apart.
+
+👉 **[Open the Imago UK Similarity Explorer](https://imago-sdruk.github.io/embeddings-uk-explorer/)**
+
+### Things to try
+
+- Click on the **neighbourhood where you live** — are its ten most similar places where you'd expect?
+- Try a **central city block** (e.g. somewhere in central Liverpool or Manchester) — do other city centres come up, or do similar-looking suburbs?
+- Try a **coastal area**, a **large park**, or an **industrial estate** — how specific does the tool get?
+
+### Questions to discuss
+
+- What does it mean for two places to "look similar" to a model? Is that the same as being similar in the way a geographer would think about them?
+- Where does the tool seem to succeed, and where does it seem to struggle?
+- Can you think of a real-world problem you'd want to solve with this kind of tool — in planning, emergency response, environmental monitoring, or somewhere else?
+
+---
+
+## Where this comes from
+
+The data powering the embedding explorer is Imago's UK-wide embedding product, derived from Google's Satellite Embedding V1. It covers yearly embeddings from 2017 to 2024 at small-area level across all four UK nations.
+
+> [https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-small-areas-2017-2024](https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-small-areas-2017-2024)
+
+This dataset is used by researchers at the Geographic Data Science Lab and beyond to study housing, displacement, climate resilience, and more. As a Liverpool student, you'd have access to it from day one of relevant modules.
+
+::: {.callout-tip}
+## Interested in going further?
+
+If you enjoy today's session, come and study with us. Liverpool offers undergraduate degrees in **Geography**, **Environmental Science**, and **Data Science** — all of which open doors into geographic data science research of the kind you've seen today.
+
+Have a chat with the academics running the workshop, or explore:
+
+- [Geographic Data Science Lab (GDSL)](https://gdsl-ul.github.io/)
+- [Imago Data Service for Imagery](https://imago.ac.uk/)
+:::
