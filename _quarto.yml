@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: ./docs
+  resources:
+    - "assets"
+  render:
+    - "materials.qmd"
+    - "index.qmd"
+    - "CODE_OF_CONDUCT.md"
+    - "CONTRIBUTING.md"
+    - "pixelsToPatterns.qmd"
+
+website:
+  title: "Understanding Our World from Space"
+
+  page-footer:
+    center: |
+      [[Imago]{.green}](https://imago.ac.uk), part of the [[Smart Data Research UK]{.blue}](https://www.sdruk.ukri.org/) family.
+
+  repo-url: https://github.com/Imago-SDRUK/ADD_from_space
+  repo-branch: main
+
+  search:
+    location: sidebar
+    type: overlay
+  sidebar:
+    style: floating
+    collapse-level: 1
+    tools:
+      - icon: github
+        href: https://github.com/Imago-SDRUK/ADD_from_space
+    contents:
+      - index.qmd
+      - materials.qmd
+      - pixelsToPatterns.qmd 
+      - text: Imago
+        href: https://imago.ac.uk
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/imago.scss
+    include-in-header:
+      - text: |
+          <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
+
+editor: visual
+
+# Website URL for reference
+url: https://imago-sdruk.github.io/ADD_from_space/
+
