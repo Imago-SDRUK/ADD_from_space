@@ -818,7 +818,7 @@ If that sounds like you, come and study with us.
 
 -   [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) — our research group at Liverpool
 -   [Imago Data Service for Imagery](https://imago.ac.uk/) — UK satellite imagery service, including embedding datasets
--   [EMBED2Social Workshop 2026](https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/Materials.html) — tutorials on embeddings for social science research
+-   [EMBED2Social Workshop 2026](https://imago-sdruk.github.io/embeddings_workshop) — tutorials on embeddings for social science research
 -   Undergraduate degrees at Liverpool in **Geography**, **Environmental Science**, and **Data Science**
 
 *This interactive resource adapts a teaching lab by Elisabetta Pietrostefani, based on the original R tutorial by [Sydney Goldstein](https://urbanspatial.github.io/classifying_satellite_imagery_in_R/). Prepared for Applicant Discovery Day at the University of Liverpool.*
