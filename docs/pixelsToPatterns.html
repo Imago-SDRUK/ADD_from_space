@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>pixelstopatterns – Understanding Our World from Space</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4db980d2af4412063e54ac826e8327b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9da0a69d09758582f7bec5a88b095657.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,7 +83,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pixelsToPatterns.html">From Pixels to Patterns</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Understanding Our World from Space
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -118,14 +123,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pixelsToPatterns.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">From Pixels to Patterns</span></a>
+  <a href="https://imago.ac.uk" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Imago</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://imago.ac.uk" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Imago</span></a>
+  <a href="https://liverpool.ac.uk/geographic-data-science" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GDSL</span></a>
   </div>
 </li>
     </ul>
@@ -932,7 +937,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://www.liverpool.ac.uk/geographic-data-science/">Geographic Data Science Lab</a> — our research group at Liverpool</li>
 <li><a href="https://imago.ac.uk/">Imago Data Service for Imagery</a> — UK satellite imagery service, including embedding datasets</li>
-<li><a href="https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/Materials.html">EMBED2Social Workshop 2026</a> — tutorials on embeddings for social science research</li>
+<li><a href="https://imago-sdruk.github.io/embeddings_workshop">EMBED2Social Workshop 2026</a> — tutorials on embeddings for social science research</li>
 <li>Undergraduate degrees at Liverpool in <strong>Geography</strong>, <strong>Environmental Science</strong>, and <strong>Data Science</strong></li>
 </ul>
 <p><em>This interactive resource adapts a teaching lab by Elisabetta Pietrostefani, based on the original R tutorial by <a href="https://urbanspatial.github.io/classifying_satellite_imagery_in_R/">Sydney Goldstein</a>. Prepared for Applicant Discovery Day at the University of Liverpool.</em></p>
@@ -993,13 +998,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
