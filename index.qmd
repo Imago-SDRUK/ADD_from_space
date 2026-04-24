@@ -1,0 +1,65 @@
+# Understanding Our World from Space
+
+> *A hands-on workshop for prospective students at the University of Liverpool*
+
+<img src="assets/Imago-logo.png" alt="Imago Logo" width="300"/>
+
+Welcome! This page contains everything you need to follow **Understanding Our World from Space**, a workshop for Applicant Discovery Day at the University of Liverpool, delivered by the [Geographic Data Science Lab (GDSL)](https://www.liverpool.ac.uk/geographic-data-science/) and the [Imago Data Service for Imagery](https://imago.ac.uk/).
+
+Every day, satellites orbiting Earth capture vast amounts of imagery — from bustling cities to remote coastlines. But how do we turn these pictures into knowledge? How can a computer "understand" what's in a satellite image, and use that understanding to answer real-world questions?
+
+In this workshop, you'll get a taste of what it's like to study geographic data science at Liverpool. No coding experience is required — everything runs in your browser.
+
+## Workshop Details
+
+**Audience:** Prospective undergraduate students at Applicant Discovery Day\
+**Location:** University of Liverpool
+
+## What you'll do
+
+The session is in **two parts**:
+
+1. **From Pixels to Patterns** — an interactive walk-through of how researchers turn raw satellite imagery of London into a map of what's on the ground. You'll see the full pipeline — from individual bands of light, to composite images, to a machine-learning classifier that labels every pixel as water, park, building, or cloud.
+2. **Interactive exploration of embeddings** — you'll use a live web tool built by the Imago team to search the UK by *what places look like from space*. Pick a neighbourhood and instantly see the ten most similar places across the country, powered by a cutting-edge AI technique called **satellite embeddings**.
+
+Together, these two parts take you from the foundations of satellite analysis to the frontier of what the field is doing right now.
+
+## Schedule
+
+| Time | Session |
+|---|---|
+| Part 1 | **From Pixels to Patterns** — reading London from space |
+| Part 2 | **Interactive exploration of embeddings** — finding lookalike places across the UK |
+
+See the [Materials](https://imago-sdruk.github.io/ADD_from_space/Materials.html) page for the links you'll need during the session.
+
+## Who is this for?
+
+Applicants considering degrees in **Geography, Environmental Science, Data Science**, or related subjects at the University of Liverpool. No coding background is required.
+
+## Requirements
+
+None
+
+## Contributing
+
+This is an open resource hosted on [Github](https://github.com/Imago-SDRUK/ADD_from_space). We welcome contributions of all kinds — code, documentation, ideas, and more!\
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for step-by-step instructions on how to:
+
+- Fork and clone the repository
+- Create a new branch for your changes
+- Use issue and pull request templates
+- Get acknowledged with the All Contributors Bot
+- Resolve merge conflicts
+
+If you're new to open source, our guidelines are designed to make it easy for you to get started.\
+If you have questions, open an issue or start a discussion!
+
+## License
+
+This repository uses a dual-licensing approach:
+
+- **MIT License** for all software code (see [LICENSE](LICENSE))
+- **Creative Commons Attribution 4.0 International (CC BY 4.0)** for documentation, data, and non-code content
+
+See the [LICENSE](LICENSE) file for full details.

@@ -1,4 +1,7 @@
 # Understanding Our World from Space
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 > _An Applicant Discovery Day workshop at the University of Liverpool_
 
 <img src="assets/Imago-logo.png" alt="Imago Logo" width="300"/>
@@ -73,11 +76,24 @@ Thank you for helping us build open, collaborative, and impactful projects with 
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/batoolMM"><img src="https://github.com/batoolMM.png?s=100" width="100px;" alt="Batool"/><br /><sub><b>Batool</b></sub></a><br /><a href="https://github.com/Imago-SDRUK/embeddings_workshop/commits?author=batoolMM" title="Code">💻</a> <a href="https://github.com/Imago-SDRUK/embeddings_workshop/commits?author=batoolMM" title="Documentation">📖</a> <a href="#maintenance-batoolMM" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://darribas.org"><img src="https://avatars.githubusercontent.com/u/417363?v=4?s=100" width="100px;" alt="Dani Arribas-Bel"/><br /><sub><b>Dani Arribas-Bel</b></sub></a><br /><a href="https://github.com/Imago-SDRUK/embeddings_workshop/commits?author=darribas" title="Code">💻</a> <a href="https://github.com/Imago-SDRUK/embeddings_workshop/commits?author=darribas" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.pietrostefani.com"><img src="https://avatars.githubusercontent.com/u/92875867?v=4?s=100" width="100px;" alt="Elisabetta Pietrostefani"/><br /><sub><b>Elisabetta Pietrostefani</b></sub></a><br /><a href="https://github.com/Imago-SDRUK/ADD_from_space/commits?author=pietrostefani" title="Code">💻</a> <a href="https://github.com/Imago-SDRUK/ADD_from_space/commits?author=pietrostefani" title="Documentation">📖</a> <a href="#design-pietrostefani" title="Design">🎨</a> <a href="#ideas-pietrostefani" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
