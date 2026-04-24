@@ -243,21 +243,11 @@
     ]
   },
   {
-    "objectID": "index.html#contributing",
-    "href": "index.html#contributing",
+    "objectID": "index.html#colophon",
+    "href": "index.html#colophon",
     "title": "Understanding Our World from Space",
     "section": "",
-    "text": "This is an open resource hosted on Github. We welcome contributions of all kinds — code, documentation, ideas, and more!\nPlease read our Contributing Guidelines for step-by-step instructions on how to:\n\nFork and clone the repository\nCreate a new branch for your changes\nUse issue and pull request templates\nGet acknowledged with the All Contributors Bot\nResolve merge conflicts\n\nIf you’re new to open source, our guidelines are designed to make it easy for you to get started.\nIf you have questions, open an issue or start a discussion!",
-    "crumbs": [
-      "Understanding Our World from Space"
-    ]
-  },
-  {
-    "objectID": "index.html#license",
-    "href": "index.html#license",
-    "title": "Understanding Our World from Space",
-    "section": "",
-    "text": "This repository uses a dual-licensing approach:\n\nMIT License for all software code (see LICENSE)\nCreative Commons Attribution 4.0 International (CC BY 4.0) for documentation, data, and non-code content\n\nSee the LICENSE file for full details.",
+    "text": "This is an open resource hosted on Github. If you want, you are welcome to peek at the repository, its license, or even contribute!",
     "crumbs": [
       "Understanding Our World from Space"
     ]
@@ -324,15 +314,5 @@
     "title": "🌟 Contributing Guidelines",
     "section": "",
     "text": "Be respectful and considerate in all interactions.\nSee our Code of Conduct for details.\n\nWe appreciate your contributions and support in building a vibrant community around this project. If you have any questions, feel free to reach out via issues or discussions."
-  },
-  {
-    "objectID": "index.html#colophon",
-    "href": "index.html#colophon",
-    "title": "Understanding Our World from Space",
-    "section": "",
-    "text": "This is an open resource hosted on Github. If you want, you are welcome to peek at the repository, its license, or even contribute!",
-    "crumbs": [
-      "Understanding Our World from Space"
-    ]
   }
 ]
