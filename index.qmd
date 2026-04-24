@@ -2,7 +2,10 @@
 
 > *A hands-on workshop for prospective students at the University of Liverpool*
 
-<img src="assets/Imago-logo.png" alt="Imago Logo" width="300"/>
+[<img src="assets/gds_logo_1.png" alt="Imago Logo"
+width="300"/>](https://liverpool.ac.uk/geographic-data-science)
+[<img src="assets/Imago-logo.png" alt="Imago Logo"
+width="300"/>](https://imago.ac.uk)
 
 Welcome! This page contains everything you need to follow **Understanding Our World from Space**, a workshop for Applicant Discovery Day at the University of Liverpool, delivered by the [Geographic Data Science Lab (GDSL)](https://www.liverpool.ac.uk/geographic-data-science/) and the [Imago Data Service for Imagery](https://imago.ac.uk/).
 
@@ -31,7 +34,7 @@ Together, these two parts take you from the foundations of satellite analysis to
 | Part 1 | **From Pixels to Patterns** — reading London from space |
 | Part 2 | **Interactive exploration of embeddings** — finding lookalike places across the UK |
 
-See the [Materials](https://imago-sdruk.github.io/ADD_from_space/Materials.html) page for the links you'll need during the session.
+See the [Materials](materials.qmd) page for the links you'll need during the session.
 
 ## Who is this for?
 
@@ -41,25 +44,19 @@ Applicants considering degrees in **Geography, Environmental Science, Data Scien
 
 None
 
-## Contributing
+::: {.callout-tip}
+## Interested in going further?
 
-This is an open resource hosted on [Github](https://github.com/Imago-SDRUK/ADD_from_space). We welcome contributions of all kinds — code, documentation, ideas, and more!\
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for step-by-step instructions on how to:
+If you enjoy today's session, come and study with us. Liverpool offers undergraduate degrees in **Geography**, **Environmental Science**, and **Data Science** — all of which open doors into geographic data science research of the kind you've seen today.
 
-- Fork and clone the repository
-- Create a new branch for your changes
-- Use issue and pull request templates
-- Get acknowledged with the All Contributors Bot
-- Resolve merge conflicts
+Have a chat with the academics running the workshop, or explore:
 
-If you're new to open source, our guidelines are designed to make it easy for you to get started.\
-If you have questions, open an issue or start a discussion!
+- [Geographic Data Science Lab (GDSL)](https://gdsl-ul.github.io/)
+- [Imago Data Service for Imagery](https://imago.ac.uk/)
+:::
 
-## License
+## Colophon
 
-This repository uses a dual-licensing approach:
+This is an open resource hosted on [Github](https://github.com/Imago-SDRUK/ADD_from_space). If you want, you are welcome to peek at the [repository](https://github.com/Imago-SDRUK/ADD_from_space), its [license](LICENSE), or even [contribute](CONTRIBUTING.md)!
 
-- **MIT License** for all software code (see [LICENSE](LICENSE))
-- **Creative Commons Attribution 4.0 International (CC BY 4.0)** for documentation, data, and non-code content
 
-See the [LICENSE](LICENSE) file for full details.

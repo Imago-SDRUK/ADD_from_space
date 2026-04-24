@@ -8,6 +8,7 @@ project:
     - "index.qmd"
     - "CODE_OF_CONDUCT.md"
     - "CONTRIBUTING.md"
+    - "LICENSE"
     - "pixelsToPatterns.qmd"
 
 website:
@@ -32,9 +33,10 @@ website:
     contents:
       - index.qmd
       - materials.qmd
-      - pixelsToPatterns.qmd 
       - text: Imago
         href: https://imago.ac.uk
+      - text: GDSL
+        href: https://liverpool.ac.uk/geographic-data-science
 
 format:
   html:

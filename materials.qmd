@@ -6,7 +6,7 @@
 
 | Part | Session | Link |
 |---|---|---|
-| 1 | **From Pixels to Patterns** — reading London from space | [Interactive resource](https://imago-sdruk.github.io/pixelsToPatterns.html) |
+| 1 | **From Pixels to Patterns** — reading London from space | [Interactive resource](pixelsToPatterns.qmd) |
 | 2 | **Interactive exploration of embeddings** — finding lookalike places across the UK | [Imago UK Similarity Explorer](https://imago-sdruk.github.io/embeddings-uk-explorer/) |
 
 ---
@@ -24,7 +24,7 @@ You'll see:
 
 The resource is designed to be read at your own pace. **No code is shown** — this is about understanding *what* the analysis does and *why* the choices matter.
 
-👉 **[Open the Pixels to Patterns interactive resource](https://imago-sdruk.github.io/pixelsToPatterns.html)**
+👉 **[Open the Pixels to Patterns interactive resource](pixelsToPatterns.qmd)**
 
 ---
 
